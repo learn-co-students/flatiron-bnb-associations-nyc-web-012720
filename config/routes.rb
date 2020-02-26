@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  resources :reviews
+  resources :reservations
+  resources :listings
   resources :users
 
-  resources :listings
 
   resources :neighborhoods
 
